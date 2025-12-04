@@ -1,4 +1,4 @@
-package Nexo.app.auth.model;
+package Nexo.app.auth.models;
 
 import jakarta.persistence.*;
 import lombok.*;
