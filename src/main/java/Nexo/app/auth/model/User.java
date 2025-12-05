@@ -1,4 +1,4 @@
-package Nexo.app.auth.models;
+package Nexo.app.auth.model;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -23,6 +23,10 @@ public class User {
     @Column(columnDefinition = "BINARY(16)")
     private UUID id;
 
+    @Enumerated(EnumType.STRING)
+    @Column(nullable = false, length = 20)
+    private Role role;
+
     @Column(nullable = false, length = 100)
     private String name;
 
@@ -31,6 +35,7 @@ public class User {
 
     @Column(nullable = false, length = 60) // con el hash ocupa 60 caracteres
     private String password;
+
 
     @CreationTimestamp
     @Column(nullable = false)
