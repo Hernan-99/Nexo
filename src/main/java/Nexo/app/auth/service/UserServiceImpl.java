@@ -1,6 +1,6 @@
 package Nexo.app.auth.service;
 
-import Nexo.app.auth.config.JwtService;
+import Nexo.app.auth.config.jwt.JwtService;
 import Nexo.app.auth.dto.UserCreateRequest;
 import Nexo.app.auth.dto.UserLoginRequest;
 import Nexo.app.auth.dto.UserResponse;
