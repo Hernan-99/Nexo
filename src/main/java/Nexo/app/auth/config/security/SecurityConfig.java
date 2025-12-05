@@ -25,9 +25,10 @@ public class SecurityConfig {
                 .sessionManagement(sess->
                         sess.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .authorizeHttpRequests(auth->auth
-                        .requestMatchers("/auth/**").permitAll() // para hacer que auth sea publico y se puedan
+                        .requestMatchers("/auth/register", "/auth/login", "/auth/refresh").permitAll() // para hacer que auth sea publico y se puedan
                         // registrar - loguear
-                        .anyRequest().authenticated() // api privada, requiere token
+                        // .anyRequest().authenticated() // api privada, requiere token
+                        .requestMatchers("/auth/me","/tasks/**").authenticated()
                 )
                 .authenticationProvider(authenticationProvider)
                 .addFilterBefore(jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class);
