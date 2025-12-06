@@ -4,51 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8617cb4-5178-4997-84a2-a7fdbb864980" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Nexo/app/NexoApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Nexo/app/api/tasks/controller/TaskController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Nexo/app/api/tasks/dto/TaskRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Nexo/app/api/tasks/dto/TaskResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Nexo/app/api/tasks/dto/TaskUpdateRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Nexo/app/api/tasks/model/Task.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Nexo/app/api/tasks/repository/TaskRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Nexo/app/api/tasks/service/TaskService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Nexo/app/api/tasks/service/TaskServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Nexo/app/auth/config/jwt/JwtProperties.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Nexo/app/auth/config/jwt/JwtService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Nexo/app/auth/config/security/AppAuthenticationProvider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Nexo/app/auth/config/security/JwtAuthenticationFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Nexo/app/auth/config/security/SecurityBeans.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Nexo/app/auth/config/security/SecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Nexo/app/auth/controller/RefreshController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Nexo/app/auth/controller/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Nexo/app/auth/dto/AuthResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Nexo/app/auth/dto/RefreshRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Nexo/app/auth/dto/UserCreateRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Nexo/app/auth/dto/UserLoginRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Nexo/app/auth/dto/UserResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Nexo/app/auth/model/Role.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Nexo/app/auth/model/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Nexo/app/auth/repository/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Nexo/app/auth/service/AuthService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Nexo/app/auth/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Nexo/app/auth/service/UserServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Nexo/app/NexoApplicationTests.java" beforeDir="false" />
-    </list>
+    <list default="true" id="b8617cb4-5178-4997-84a2-a7fdbb864980" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -57,9 +20,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="36TLkQOmKQAgFuSBSCaEY1Gs6mT" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -70,10 +33,10 @@
     "Application.NexoApplication.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "develop",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/sanch/OneDrive/Escritorio/Nexo/api",
+    "last_opened_file_path": "C:/Users/sanch/OneDrive/Escritorio/Nexo",
     "settings.editor.selected.configurable": "preferences.pathVariables"
   }
 }]]></component>

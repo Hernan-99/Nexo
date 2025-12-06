@@ -1,49 +1,35 @@
 HELP.md
-api/target/
-api/.mvn/wrapper/maven-wrapper.jar
-!api/**/src/main/**/target/
-!api/**/src/test/**/target/
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
 
-api/src/main/resources/application.properties
-
-api/mvnw
-api/mvnw.cmd
-api/.mvn/
+src/main/resources/application.properties
 
 ### STS ###
-api/.apt_generated
-api/.classpath
-api/.factorypath
-api/.project
-api/.settings/
-api/.springBeans
-api/.sts4-cache/
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
 
 ### IntelliJ IDEA ###
-api/.idea/
-api/*.iws
-api/*.iml
-api/*.ipr
+.idea
+*.iws
+*.iml
+*.ipr
 
 ### NetBeans ###
-api/nbproject/private/
-api/nbbuild/
-api/dist/
-api/nbdist/
-api/.nb-gradle/
-api/build/
-!api/**/src/main/**/build/      # Excepciones
-!api/**/src/test/**/build/
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
 
 ### VS Code ###
-api/.vscode/
-
-api/*.log
-api/logs/
-
-
-api/*.tmp
-api/*.temp
-
-
-api/*.shelf
+.vscode/
