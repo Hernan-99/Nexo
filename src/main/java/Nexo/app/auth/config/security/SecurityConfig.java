@@ -21,6 +21,7 @@ public class SecurityConfig {
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception{
         http
+                .cors(Customizer.withDefaults())
                 .csrf(csrf -> csrf.disable())
                 .sessionManagement(sess->
                         sess.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
@@ -28,7 +29,7 @@ public class SecurityConfig {
                         .requestMatchers("/auth/register", "/auth/login", "/auth/refresh").permitAll() // para hacer que auth sea publico y se puedan
                         // registrar - loguear
                         // .anyRequest().authenticated() // api privada, requiere token
-                        .requestMatchers("/auth/me","/tasks/**").authenticated()
+                        .requestMatchers("/auth/me","/tasks/**", "/audio/**").authenticated()
                 )
                 .authenticationProvider(authenticationProvider)
                 .addFilterBefore(jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class);
